@@ -4,3 +4,6 @@ def "mario" do
   expect{Mario}.to output ("It's-a me, Mario?\n").to_stdout
 end
 
+def toadstool
+  puts status
+end
